@@ -2,13 +2,12 @@ from math import ceil, floor
 
 
 def getSummed(n):
-    
     return n*(n+1)>>1# b9inary shift lol
 
 numbers = []
 n = 0
 t=0
-while len(numbers) < 500:
+while len(numbers) <= 500:
     numbers = []
     n += 1
     sumed = getSummed(n)
